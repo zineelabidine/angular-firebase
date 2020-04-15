@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'angular-Firebase';
   constructor() {
     const config = {
-   
+     
     };
     firebase.initializeApp(config);
   }
